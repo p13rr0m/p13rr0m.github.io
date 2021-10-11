@@ -25,4 +25,4 @@ julia> using Franklin
 julia> serve()
 ```
 
-Created with [Franklin](https://franklinjl.org/)
+Created with [Franklin](https://franklinjl.org/) and [Lanyon](https://github.com/poole/lanyon)
