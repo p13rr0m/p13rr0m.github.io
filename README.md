@@ -2,15 +2,27 @@
 
 This site is still under heavy construction
 
-Build and test
+Initialise
 
 ```julia
 julia --project
 
 julia> using Franklin
 julia> newsite(".", template="Lanyon")
-julia> serve()
 
 julia> using NodeJS
 julia> run(`sudo $(npm_cmd()) install highlight.js`)
+
+julia> serve()
 ```
+
+Build and test
+
+```julia
+julia --project
+
+julia> using Franklin
+julia> serve()
+```
+
+Created with [Franklin](https://franklinjl.org/)
