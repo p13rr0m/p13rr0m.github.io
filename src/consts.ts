@@ -19,7 +19,7 @@ export const SITE: Site = {
   EMAIL: '',
   NUM_POSTS_ON_HOMEPAGE: 2,
   POSTS_PER_PAGE: 5,
-  SITEURL: 'https://p13rr0m.github.io/blog',
+  SITEURL: 'https://p13rr0m.github.io',
 }
 
 export const NAV_LINKS: Link[] = [

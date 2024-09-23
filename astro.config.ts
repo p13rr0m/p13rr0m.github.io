@@ -20,7 +20,9 @@ import icon from 'astro-icon'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://p13rr0m.github.io/blog',
+  base: '/', 
+  site: 'https://p13rr0m.github.io',
+  output: 'static',
   integrations: [
     tailwind({
       applyBaseStyles: false,
