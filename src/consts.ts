@@ -13,25 +13,24 @@ export type Link = {
 }
 
 export const SITE: Site = {
-  TITLE: 'astro-erudite',
+  TITLE: 'p13rr0m',
   DESCRIPTION:
-    'astro-erudite is a opinionated, no-frills blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  EMAIL: 'jason@enscribe.dev',
+    'This is my website. Work in progress. I am blogging about Google Cloud and artificial intelligence.',
+  EMAIL: '',
   NUM_POSTS_ON_HOMEPAGE: 2,
-  POSTS_PER_PAGE: 3,
-  SITEURL: 'https://astro-erudite.vercel.app',
+  POSTS_PER_PAGE: 5,
+  SITEURL: 'https://p13rr0m.github.io/blog',
 }
 
 export const NAV_LINKS: Link[] = [
   { href: '/blog', label: 'blog' },
-  { href: '/authors', label: 'authors' },
   { href: '/about', label: 'about' },
   { href: '/tags', label: 'tags' },
 ]
 
 export const SOCIAL_LINKS: Link[] = [
-  { href: 'https://github.com/jktrn', label: 'GitHub' },
-  { href: 'https://twitter.com/enscry', label: 'Twitter' },
-  { href: 'jason@enscribe.dev', label: 'Email' },
-  { href: '/rss.xml', label: 'RSS' },
+  { href: 'https://github.com/p13rr0m', label: 'GitHub' },
+  { href: 'https://stackoverflow.com/users/7482962/p13rr0m', label: 'StackOverflow' },
+  { href: 'https://www.linkedin.com/in/robin-meyer-08205320b/', label: 'LinkedIn' },
+  // { href: 'https://twitter.com/enscry', label: 'Twitter' },
 ]
