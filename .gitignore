@@ -9,3 +9,5 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+tools/sync-content.sh
+pnpm-lock.yaml
